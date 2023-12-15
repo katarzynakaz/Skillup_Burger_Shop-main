@@ -12,17 +12,16 @@ const Contact = () => {
                 <input type="email" id="email" name="email" placeholder="Enter Your Email" required />
                 <textarea id="comment" name="comment" placeholder="Enter your comment" required></textarea>
                 <Popup
-                  trigger={<button type="submit">Send</button>} 
-                  position="right center"
+                  trigger={<button type="submit">Send</button>}          
                 >
-                  <div className="popup">Thank you for your message. We will get back to you shortly.</div>
+                  <div className="popup" style={{color:"red",background:'white',boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px"}}>Thank you for your message. We will get back to you shortly.</div>
                 </Popup>
-            </form>
             <div className="formBorder">
-               {/* <div>
+               <div>
                 <img src={burger1} alt="Burger" />
-               </div> */}
+               </div>
             </div>
+            </form>
            
         </div>
     );
