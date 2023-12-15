@@ -1,0 +1,15 @@
+.button1 ,.button2{
+    width: 50%;
+    background-color: rgb(175, 171, 171);
+    border: none;
+    color:black;
+    &:hover {
+        background-color: lightcyan;
+        color: blue;
+      }
+}
+
+#topbuttoncont {
+    display: flex;
+    align-items: center;
+}
