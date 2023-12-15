@@ -21,10 +21,7 @@ const MyOrders = () => {
               <th>Action</th>
             </tr>
           </thead>
-
-          <tbody>
-{/* //     Add the code for the table body and figute out how to get data in */}
-               
+          <tbody>     
             {arr.map(orderId => (
               <tr key={orderId}>
                 <td>{orderId}</td>

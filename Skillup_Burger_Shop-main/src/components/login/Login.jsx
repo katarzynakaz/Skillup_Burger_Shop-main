@@ -16,13 +16,6 @@ import {
 const Login = () => {
   const [justifyActive, setJustifyActive] = useState('tab1');
 
-//   const handleJustifyClick = (value) => {
-//     if (value === justifyActive) {
-//       return;
-//     }
-//     setJustifyActive(value);
-//   };
-
   return (
     <MDBContainer> 
         {/* gtop buttons */}
